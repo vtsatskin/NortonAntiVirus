@@ -43,7 +43,7 @@ module NortonAntiVirus
     end
 
     unless filtered_params.empty?
-      self.update_attributes filtered_params
+      self.update filtered_params
       self.save
     end
 
